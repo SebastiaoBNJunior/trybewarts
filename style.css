@@ -32,6 +32,7 @@ form { /* REQUISITO 5 */
 #trybewarts-forms-logo { /* REQUISITO 7 */
   height: 500px;
   border: 1px solid red;
+  right: 0%;
 }
 
 .inputOne { /* REQUISITO 10 */
