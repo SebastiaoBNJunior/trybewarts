@@ -32,12 +32,39 @@ form { /* REQUISITO 5 */
 #trybewarts-forms-logo { /* REQUISITO 7 */
   height: 500px;
   border: 1px solid red;
+  right: 0%;
+}
+
+.inputOne { /* REQUISITO 10 */
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.inputOne label { /* REQUISITO 10 */
+  margin-right: 10px;
+}
+
+.inputTwo { /* REQUISITO 11 */
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.inputTwo label { /* REQUISITO 11 */
+  margin-right: 10px;
 }
 
 footer { /* REQUISITO 19 */
   border: 1px solid red;
   position: fixed;
   width: 100%;
+  left: 0;
+  bottom: 0;
   text-align: center;
   background-color: rgb(50, 167, 145);
 }
