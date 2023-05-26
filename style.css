@@ -22,13 +22,13 @@ form { /* REQUISITO 5 */
   flex-direction: column;
 }
 
-#trybewarts-header-title { /*REQUISITO 4 */
+#trybewarts-header-title { /* REQUISITO 4 */
   border: 1px solid red;
   align-items: center;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Times New Roman, Times, serif;
 }
 
-#trybewarts-forms-logo { /*REQUISITO 7 */
+#trybewarts-forms-logo { /* REQUISITO 7 */
   height: 500px;
   border: 1px solid red;
 }
