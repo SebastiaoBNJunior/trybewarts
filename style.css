@@ -32,3 +32,13 @@ form { /* REQUISITO 5 */
   height: 500px;
   border: 1px solid red;
 }
+
+footer {
+  border: 1px solid red;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(50, 167, 145);
+}
