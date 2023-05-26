@@ -33,6 +33,30 @@ form { /* REQUISITO 5 */
   border: 1px solid red;
 }
 
+.inputOne { /* REQUISITO 10 */
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.inputOne label { /* REQUISITO 10 */
+  margin-right: 10px;
+}
+
+.inputTwo { /* REQUISITO 11 */
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.inputTwo label { /* REQUISITO 11 */
+  margin-right: 10px;
+}
+
 footer { /* REQUISITO 19 */
   border: 1px solid red;
   position: fixed;
