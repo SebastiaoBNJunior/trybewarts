@@ -12,8 +12,8 @@
       <div class="header"><!-- REQUISITO 1 -->
         <img class="trybewarts-header-logo"
           src="images/trybewarts-header-logo.svg" alt="logo trybewarts"><!-- REQUISITO 2 -->
-          <h1 id="trybewarts-header-title">Trybewarts</h1><!--REQUISITO 4-->
-          <form class="trybewarts-login">
+        <h1 id="trybewarts-header-title">Trybewarts</h1><!--REQUISITO 4-->
+        <form class="trybewarts-login">
           <label>E-mail:</label>
           <input type="text" name="email" placeholder="Email">
           <label>Senha:</label>
@@ -22,11 +22,20 @@
         </form> <!--REQUISITO 3-->
       </div>
     </header>
-      <main> <!--RESOLUÇÃO REQUISITO 5-->
-        <form id="evaluation-form">
+    <main> <!--RESOLUÇÃO REQUISITO 5-->
+      <form id="evaluation-form">
+        <label for="input-name">Nome:</label> <!--RESOLUÇÃO REQUISITO 8-->
+        <input type="text" id="input-name" placeholder="Nome" required>
 
-        </form>
-      </main>
-      <script src="script.js"></script>
-    </body>
-  </html>
+        <label for="input-lastname">Sobrenome:</label>
+        <input type="text" id="input-lastname" placeholder="Sobrenome" required>
+
+        <label for="input-email">Email:</label>
+        <input type="email" id="input-email" placeholder="Email" required>
+
+        <input type="submit" value="Enviar">
+      </form>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
