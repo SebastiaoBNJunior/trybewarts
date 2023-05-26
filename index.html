@@ -25,38 +25,40 @@
     <main> <!--RESOLUÇÃO REQUISITO 5-->
       <form id="evaluation-form">
         <div class="inputOne">
-        <label for="input-name">Nome:</label><!--REQUISITO 8-->
-        <input type="text" id="input-name" placeholder="Nome" required>
-        <label for="input-lastname">Sobrenome:</label>
-        <input type="text" id="input-lastname" placeholder="Sobrenome" required>
-       </div>
-       <div class="inputTwo"> <!--REQUISITO 11-->
-        <label for="input-email">Email:</label>
-        <input type="email" id="input-email" placeholder="Email" required>
-        <input type="submit" value="Enviar">
-        <select id="house">
-          <option id="gitnoria-house" value="Gitnória">Gitnória</option>
-          <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
-          <option id="corvinode-house" value="Corvinode">Corvinode</option>
-          <option id="pytherina-house" value="Pytherina">Pytherina</option>
-        </select>
-       </div>
-       <div>
-        <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label> <!--REQUISITO 13-->
-        <br>
-          <input type="checkbox" class="subject" id="checkbox1" name="checkbox1">
-          <label for="checkbox1" value="HoFs" >Hofs</label>
-          <input type="checkbox" class="subject" id="checkbox2" name="checkbox2">
-          <label for="checkbox2" value="Jest" >Jest</label>
-          <input type="checkbox" class="subject" id="checkbox3" name="checkbox3">
-          <label for="checkbox3" value="Promises" >Promises</label>
-          <input type="checkbox" class="subject" id="checkbox4" name="checkbox4">
-          <label for="checkbox4" value="React" >React</label>
-          <input type="checkbox" class="subject" id="checkbox5" name="checkbox5">
-          <label for="checkbox5" value="SQL" >SQL</label>
-          <input type="checkbox" value="" class="subject" id="checkbox6" name="checkbox6">
-          <label for="checkbox6" value="Python" >Python</label>
-       </div>
+          <label for="input-name">Nome:</label><!--REQUISITO 8-->
+          <input type="text" id="input-name" placeholder="Nome" required>
+          <label for="input-lastname">Sobrenome:</label>
+          <input type="text" id="input-lastname" placeholder="Sobrenome"
+            required>
+        </div>
+        <div class="inputTwo"> <!--REQUISITO 11-->
+          <label for="input-email">Email:</label>
+          <input type="email" id="input-email" placeholder="Email" required>
+          <input type="submit" value="Enviar">
+          <select id="house">
+            <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+            <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+            <option id="corvinode-house" value="Corvinode">Corvinode</option>
+            <option id="pytherina-house" value="Pytherina">Pytherina</option>
+          </select>
+        </div>
+        <div>
+          <label for="label-family" id="label-family">Qual sua família?</label><br>
+          <!--REQUISITO 12-->
+          <input type="radio" name="family" value="Frontend">Frontend<br>
+          <input type="radio" name="family" value="Backend">Backend<br>
+          <input type="radio" name="family" value="FullStack">FullStack<br>
+        </div>
+        <div>
+          <label for="subject" id="label-content">Qual conteúdo você está com
+            mais vontade de aprender?</label><br>
+          <input type="checkbox" class="subject" value="HoFs">HoFs
+          <input type="checkbox" class="subject" value="Jest">Jest
+          <input type="checkbox" class="subject" value="Promises">Promises
+          <input type="checkbox" class="subject" value="React">React
+          <input type="checkbox" class="subject" value="SQL">SQL
+          <input type="checkbox" class="subject" value="Python">Python
+        </div>
       </form>
       <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg"><!--REQUISITO 7-->
     </main>
