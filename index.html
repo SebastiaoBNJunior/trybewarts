@@ -22,10 +22,11 @@
         </form>
       </div>
     </header>
-    <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" id="evaluation-form"><!--REQUISITO 7-->
+    <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg"
+      id="evaluation-form"><!--REQUISITO 7-->
     <main> <!--RESOLUÇÃO REQUISITO 5-->
       <form id="evaluation-form">
-        <label for="input-name">Nome:</label>
+        <label for="input-name">Nome:</label><!--REQUISITO 8-->
         <input type="text" id="input-name" placeholder="Nome" required>
 
         <label for="input-lastname">Sobrenome:</label>
@@ -36,23 +37,23 @@
 
         <input type="submit" value="Enviar">
 
+
+        <label for="label-family" id="label-family">Qual sua família?</label><br>
+        <input type="radio" name="family" value="Frontend">Frontend<br>
+        <input type="radio" name="family" value="Backend">Backend<br>
+        <input type="radio" name="family" value="FullStack">FullStack<br>
       </form>
       <select id="house">
         <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+        <!--REQUISITO 9-->
         <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
         <option id="corvinode-house" value="Corvinode">Corvinode</option>
         <option id="pytherina-house" value="Pytherina">Pytherina</option>
       </select>
-
     </main>
+    <footer> <!-- REQUISITO 19-->
+      <p>Direitos reservados à Trybewarts©</p>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
-        </form>
-      </main>
-      <footer> <!-- REQUISITO 19-->
-        <p>Direitos reservados à Trybewarts©</p>
-      </footer>
-      <script src="script.js"></script>
-    </body>
-  </html>
