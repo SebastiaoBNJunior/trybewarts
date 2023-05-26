@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trybewarts</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="header"><!-- REQUISITO 1 -->
-          <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="logo trybewarts"><!-- REQUISITO 2 -->
-          <form action="" class="trybewarts-header-logo">
-            <label  placeholder="Email">E-mail:</label>
-            <input type="text" name="name" id="">
-          </form> <!--REQUISITO 3-->
-        </div>
+      <div class="header"><!-- REQUISITO 1 -->
+        <img class="trybewarts-header-logo"
+          src="images/trybewarts-header-logo.svg" alt="logo trybewarts"><!-- REQUISITO 2 -->
+        <form class="trybewarts-login">
+          <label>E-mail:</label>
+          <input type="text" name="email" placeholder="Email">
+          <label>Senha:</label>
+          <input type="password" name="password" placeholder="Senha">
+          <button type="button" onclick="validateForm()">Entrar</button>        </form> <!--REQUISITO 3-->
+      </div>
     </header>
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
