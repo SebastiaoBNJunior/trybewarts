@@ -4,7 +4,6 @@
   border: 1px solid red;
   display: flex;
 }
-
 .trybewarts-login { /* REQUISITO 3 */
   display: flex;
 }
@@ -20,4 +19,8 @@ form { /* REQUISITO 5 */
 #evaluation-form { /* REQUISITO 5 e 6 */
   width: 675px;
   flex-direction: column;
+}
+.trybewarts-header-title { /*REQUISITO 4 */
+  border: 1px solid red;
+  align-items: center;
 }
