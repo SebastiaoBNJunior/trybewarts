@@ -58,7 +58,7 @@ form { /* REQUISITO 5 */
   margin-right: 10px;
 }
 
-.checkbox-label {
+.checkbox-label { /* REQUISITO 16 */
   display: inline-block;
   vertical-align: middle;
 }
