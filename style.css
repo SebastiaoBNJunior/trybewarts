@@ -58,6 +58,11 @@ form { /* REQUISITO 5 */
   margin-right: 10px;
 }
 
+.checkbox-label {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 footer { /* REQUISITO 19 */
   border: 1px solid red;
   position: fixed;
